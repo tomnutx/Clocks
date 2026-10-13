@@ -27,7 +27,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1
 .pulse-dot::after{content:'';position:absolute;inset:-3px;border-radius:50%;background:rgba(194,65,12,0.3);animation:pulse 2s ease-in-out infinite}
 @keyframes pulse{0%,100%{transform:scale(1);opacity:0.6}
 50%{transform:scale(1.6);opacity:0}
-}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem}
+}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
 .card{background:var(--surface);border:1px solid var(--line-soft);border-radius:2px;padding:2.5rem 2.25rem 2.25rem;display:flex;flex-direction:column;min-height:320px;position:relative;transition:all 0.45s var(--ease);text-decoration:none;color:inherit;overflow:hidden}
 .card::before{content:'';position:absolute;top:0;left:0;width:0;height:2px;background:var(--accent);transition:width 0.55s var(--ease)}
 .card:hover::before{width:100%}

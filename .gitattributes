@@ -1,1 +1,2 @@
 static/js/jquery.min.js -text
+*.xml text eol=lf
