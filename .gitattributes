@@ -1,2 +1,29 @@
-static/js/jquery.min.js -text
+# 压缩过的 JS / CSS，不做换行转换
+*.min.js -text
+*.min.css -text
+
+# 字体、图片、压缩包，二进制
+*.woff -text
+*.woff2 -text
+*.ttf -text
+*.eot -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.gif -text
+*.webp -text
+*.ico -text
+*.zip -text
+
+# XML（sitemap、验证文件等）统一用 LF
 *.xml text eol=lf
+
+# HTML / CSS / JS 统一用 LF
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+
+# 文本文件统一 LF
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
