@@ -1,0 +1,1 @@
+import{t as e}from"./clock.BLGvjXy7.js";function t(){document.querySelectorAll(`.digital-clock`).forEach(t=>{if(t.dataset.initialized===`true`)return;t.dataset.initialized=`true`;let n=t.dataset.lang??`zh`,r=t.querySelector(`[data-role="time"]`),i=t.querySelector(`[data-role="date"]`);(r||i)&&e({timeEl:r,dateEl:i,lang:n})})}t(),document.addEventListener(`astro:page-load`,t);
